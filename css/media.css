@@ -104,6 +104,10 @@
         color: #404BBF;
     }
 
+    .scroll-name {
+        text-align: unset;
+    }
+
     .scroll-item {
         max-width: unset;
         width: calc((100% - 24px) / 2);
@@ -137,7 +141,7 @@
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/planshet1x.jpg);
+            url(../images/people-office-tab-1x.jpg);
         max-width: 768px;
     }
 
@@ -147,7 +151,7 @@
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/planshet2x.jpg);
+                url(../images/people-office-mob-2x.jpg);
         }
     }
 
@@ -213,6 +217,20 @@
         max-width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .header-address-list {
+        display: flex;
+        flex-direction: unset;
+        gap: 40px;
+    }
+
+    .header-address-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--text-section-color);
+        transition: color var(--transition);
     }
 
     .scroll-item {
@@ -297,7 +315,7 @@
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/office.jpg);
+            url(../images/people-office-1x.jpg);
         max-width: 1440px;
         padding-top: 188px;
         padding-bottom: 188px;
@@ -309,7 +327,7 @@
         .hero {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/office2x.jpg);
+                url(../images/people-office-2x.jpg);
         }
     }
 
